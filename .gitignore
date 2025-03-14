@@ -1,0 +1,50 @@
+# Ignore environment files and sensitive data
+.env
+
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment
+venv/
+env/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore log and backup files
+*.log
+*.bak
+
+# Ignore Render and deployment-specific files
+render.yaml
+deploy/
+
+# Ignore node_modules (if using Node.js in assets)
+assets/js/node_modules/
+
+# Ignore database files (if using SQLite for local testing)
+*.sqlite3
+*.db
+
+# Ignore VS Code and JetBrains IDE settings
+.vscode/
+.idea/
+
+# Ignore dependencies
+backend/__pycache__/
+backend/*.pyc
+backend/*.pyo
+backend/*.pyd
+
+# Ignore frontend build files (if using a frontend framework)
+dist/
+build/
+
+/backend
+/backend/*
+!.gitignore
+
