@@ -37,18 +37,33 @@
     }
 }
 
+
 /* Responsive Adjustments */
+@media (max-width: 992px) {
+    .blog-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 @media (max-width: 768px) {
+    #blog {
+        padding: 70px 0;
+    }
+    
+    #blog h2 {
+        font-size: 2rem;
+    }
+    
     .blog-grid {
         grid-template-columns: 1fr;
+        gap: 25px;
     }
     
-    .experience-item,
-    .blog-card {
-        padding: 1rem;
+    .blog-image-container {
+        height: 220px;
     }
     
-    .blog-image {
-        height: 180px;
+    .blog-card-content {
+        padding: 20px;
     }
 }
