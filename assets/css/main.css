@@ -81,6 +81,25 @@ a:hover {
 .nav-links a:hover::after {
     width: 100%;
 }
+/* nav-container h3  */
+/* Logo Styling */
+.logo {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.logo-link {
+    text-decoration: none;
+    color: var(--accent-color, #ffffff);
+    padding: 0.5rem;
+    transition: color 0.3s ease;
+    letter-spacing: 1px;
+}
+
+.logo-link:hover {
+    color: var(--accent-color, #64ffda);
+}
 
 /* Enhanced Hero Section */
 .hero {
